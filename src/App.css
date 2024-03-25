@@ -1,0 +1,49 @@
+h1 {
+    color: #0398d4;
+    margin-bottom: 25px;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reset-button {
+    all: unset;
+    color:white;
+    background-color: #0398d4;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 30px;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset-button:hover{
+    background-color: #0399d480;
+}
+button.btn {
+    all: unset;
+    padding: 0px 40px;
+    cursor: pointer;
+}
+span {
+    background-color: white;
+    padding: 0px 30px;
+}
+.display-container {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #344151;
+    background-color: white;
+    padding-block: 5px;
+    margin-bottom: 30px;
+}
+.btn:last-of-type {
+    border-left: 2px solid black;
+}
+.btn:first-of-type {
+    border-right: 2px solid black;
+}
